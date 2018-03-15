@@ -25,7 +25,7 @@ apis:
   tags: Conversion
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/conversion/master/_listings/google-doubleclick/userprofiles-profileid-conversions-batchinsert-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/conversion/master/_listings/google-doubleclick/agency-agencyid-advertiser-advertiserid-engine-engineaccountid-conversion-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
