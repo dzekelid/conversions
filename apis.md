@@ -5,12 +5,14 @@ description: This is a repository of conversions APIs, self-contained as a Githu
   operations.
 image: http://template.streamdata.gallery/assets/conversions.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://conversions.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
 tags: Conversions
-include: []
+include:
+- name: Click Meter
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/click-meter/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
