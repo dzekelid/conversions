@@ -1,30 +1,30 @@
 ---
 name: Aspose
-description: Aspose aims to provide developers with top quality file format APIs complemented
-  by fast and reliable technical support. We listen closely to developers worldwide
-  and produce solutions that meet their complex needs. Aspose save developers programming
-  with file formats time that they can put to better use meeting their organizations???
-  objectives.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1865_logo.jpg
+x-slug: aspose
+description: .NET Java Cloud SharePoint Android SSRS and JasperReports file format
+  APIs for developers. Integrate in any enterprise level web desktop and mobile application
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Documents
-- Conversion
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/conversion/master/_listings/aspose/apis.yaml
+x-alexaRank: "59913"
+tags: Conversions
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/aspose/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://arlington.national.cemetery.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aspose.stack.network
 - type: x-base
   url: http://api.aspose.com/
 - type: x-blog
   url: http://www.aspose.com/community/blogs/default.aspx
 - type: x-blog-rss
   url: http://www.aspose.com/community/blogs/rss.aspx
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/aspose
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/aspose
 - type: x-developer
@@ -45,6 +45,8 @@ x-common:
   url: http://www.youtube.com/user/asposevideo
 - type: x-website
   url: http://www.aspose.com
+- type: x-website
+  url: http://aspose.com
 include: []
 maintainers:
 - FN: Kin Lane

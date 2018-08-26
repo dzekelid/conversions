@@ -1,32 +1,24 @@
 ---
 name: Google Doubleclick
+x-slug: google-doubleclick
 description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
   to access and update account information and to submit creatives. The API also allows
   an application (whether it does static bidding or real-time bidding) to discover
   direct deals that sellers make available.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Advertising
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/conversion/master/_listings/google-doubleclick/apis.yaml
+x-alexaRank: "0"
+tags: Conversions
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Doubleclick API
-  description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
-    to access and update account information and to submit creatives
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: ""
-  baseURL: https:///
-  tags: Conversion
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/conversion/master/_listings/google-doubleclick/conversion-updateavailability-post.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.dataflow.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.doubleclick.stack.network
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
 - type: x-blog
