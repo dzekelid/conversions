@@ -9,11 +9,215 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Doubleclick Merged API - Insert Conversions
+  x-api-slug: userprofilesprofileidconversionsbatchinsert-post
+  description: Inserts conversions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/userprofilesprofileidconversionsbatchinsert-post-openapi.md
+- name: Google Doubleclick Merged API - Get Conversions
+  x-api-slug: agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get
+  description: Retrieves a list of conversions from a DoubleClick Search engine account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-patch
+  description: Updates a batch of conversions in DoubleClick Search. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-patch-openapi.md
+- name: Google Doubleclick Merged API - Insert Conversion
+  x-api-slug: conversion-post
+  description: Inserts a batch of new conversions into DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-post-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-put
+  description: Updates a batch of conversions in DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-put-openapi.md
+- name: Google Doubleclick Merged API - Update Availability
+  x-api-slug: conversionupdateavailability-post
+  description: Updates the availabilities of a batch of floodlight activities in DoubleClick
+    Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversionupdateavailability-post-openapi.md
+- name: Google Doubleclick Merged API - Insert Conversions
+  x-api-slug: userprofilesprofileidconversionsbatchinsert-post
+  description: Inserts conversions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/userprofilesprofileidconversionsbatchinsert-post-openapi.md
+- name: Google Doubleclick Merged API - Get Conversions
+  x-api-slug: agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get
+  description: Retrieves a list of conversions from a DoubleClick Search engine account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-patch
+  description: Updates a batch of conversions in DoubleClick Search. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-patch-openapi.md
+- name: Google Doubleclick Merged API - Insert Conversion
+  x-api-slug: conversion-post
+  description: Inserts a batch of new conversions into DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-post-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-put
+  description: Updates a batch of conversions in DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-put-openapi.md
+- name: Google Doubleclick Merged API - Update Availability
+  x-api-slug: conversionupdateavailability-post
+  description: Updates the availabilities of a batch of floodlight activities in DoubleClick
+    Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversionupdateavailability-post-openapi.md
+- name: Google Doubleclick Merged API - Insert Conversions
+  x-api-slug: userprofilesprofileidconversionsbatchinsert-post
+  description: Inserts conversions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/userprofilesprofileidconversionsbatchinsert-post-openapi.md
+- name: Google Doubleclick Merged API - Get Conversions
+  x-api-slug: agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get
+  description: Retrieves a list of conversions from a DoubleClick Search engine account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/agencyagencyidadvertiseradvertiseridengineengineaccountidconversion-get-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-patch
+  description: Updates a batch of conversions in DoubleClick Search. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-patch-openapi.md
+- name: Google Doubleclick Merged API - Insert Conversion
+  x-api-slug: conversion-post
+  description: Inserts a batch of new conversions into DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-post-openapi.md
+- name: Google Doubleclick Merged API - Update Conversions
+  x-api-slug: conversion-put
+  description: Updates a batch of conversions in DoubleClick Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversion-put-openapi.md
+- name: Google Doubleclick Merged API - Update Availability
+  x-api-slug: conversionupdateavailability-post
+  description: Updates the availabilities of a batch of floodlight activities in DoubleClick
+    Search.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/conversionupdateavailability-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.dataflow.api.gallery.streamdata.io

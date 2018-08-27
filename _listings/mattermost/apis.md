@@ -8,11 +8,30 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Mattermost API Reference - Convert a channel from public to private
+  x-api-slug: channelschannel-idconvert-post
+  description: |-
+    Convert into private channel from the provided channel id string.
+
+    __Minimum server version__: 4.10
+
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/mattermost/channelschannel-idconvert-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/mattermost/channelschannel-idconvert-post-openapi.md
 - name: Mattermost API Reference - Convert a channel from public to private
   x-api-slug: channelschannel-idconvert-post
   description: |-

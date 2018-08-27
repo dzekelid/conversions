@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PayPal (Sandbox) - Convert Currency
+  x-api-slug: adaptivepaymentsconvertcurrency-post
+  description: Use the ConvertCurrency API operation to request the current foreign
+    exchange (FX) rate for a specific amount and currency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/paypal/adaptivepaymentsconvertcurrency-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://paylocity.api.gallery.streamdata.io

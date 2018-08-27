@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1999-affil
 x-kinRank: "8"
 x-alexaRank: "108661"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/affilae/apis.md
 specificationVersion: "0.14"
 apis: []

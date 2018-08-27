@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,6 +31,48 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/currencyconversion-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/currencyconversion-get-openapi.md
+- name: VAT API - Convert a price to or from VAT price.
+  x-api-slug: vatprice-get
+  description: Convert a price to or from vat price..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/vatprice-get-openapi.md
+- name: VAT API - Convert a currency
+  x-api-slug: currencyconversion-get
+  description: Convert a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/currencyconversion-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/currencyconversion-get-openapi.md
+- name: VAT API - Convert a price to or from VAT price.
+  x-api-slug: vatprice-get
+  description: Convert a price to or from vat price..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/vatprice-get-openapi.md
+- name: VAT API - Convert a price to or from VAT price.
+  x-api-slug: vatprice-get
+  description: Convert a price to or from vat price..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/vatprice-get-openapi.md
 - name: VAT API - Convert a currency
   x-api-slug: currencyconversion-get
   description: Convert a currency.

@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfus
 x-kinRank: "7"
 x-alexaRank: "4970472"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/nfusion-solutions/apis.md
 specificationVersion: "0.14"
 apis:
+- name: nFusion Solutions Market Data API v1 - Get list of currencies supported by
+    metals endpoints for currency conversion
+  x-api-slug: apivversionmetalssupportedcurrency-get
+  description: Get list of currencies supported by metals endpoints for currency conversion.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
+  humanURL: http://www.nfusionsolutions.com
+  baseURL: https://api.nfusionsolutions.biz//
+  tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
+    Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
 - name: nFusion Solutions Market Data API v1 - Get list of currencies supported by
     metals endpoints for currency conversion
   x-api-slug: apivversionmetalssupportedcurrency-get

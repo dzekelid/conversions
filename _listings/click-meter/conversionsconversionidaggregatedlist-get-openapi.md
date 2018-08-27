@@ -289,6 +289,222 @@ paths:
       - ConversionId
       - Aggregated
       - List
+  /conversions/{conversionId}/datapoints:
+    get:
+      summary: Retrieve a list of datapoints connected to this conversion
+      description: Retrieve a list of datapoints connected to this conversion.
+      operationId: getConversionsConversionDatapoints
+      x-api-path-slug: conversionsconversioniddatapoints-get
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: query
+        name: createdAfter
+        description: Exclude datapoints created before this date (YYYYMMDD)
+      - in: query
+        name: createdBefore
+        description: Exclude datapoints created after this date (YYYYMMDD)
+      - in: query
+        name: limit
+        description: Limit results to this number
+      - in: query
+        name: offset
+        description: Offset where to start from
+      - in: query
+        name: status
+        description: Status of datapoint (deleted/active/paused/spam)
+      - in: query
+        name: tags
+        description: Filter by this tag name
+      - in: query
+        name: textSearch
+        description: Filter fields by this pattern
+      - in: query
+        name: type
+        description: Type of datapoint (tl/tp)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Datapoints
+  /conversions/{conversionId}/datapoints/batch/patch:
+    put:
+      summary: Modify the association between a conversion and multiple datapoints
+      description: Modify the association between a conversion and multiple datapoints.
+      operationId: putConversionsConversionDatapointsBatchPatch
+      x-api-path-slug: conversionsconversioniddatapointsbatchpatch-put
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: body
+        name: data
+        description: Patch requests
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Datapoints
+      - Batch
+      - Patch
+  /conversions/{conversionId}/datapoints/count:
+    get:
+      summary: Retrieve a count of datapoints connected to this conversion
+      description: Retrieve a count of datapoints connected to this conversion.
+      operationId: getConversionsConversionDatapointsCount
+      x-api-path-slug: conversionsconversioniddatapointscount-get
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: query
+        name: createdAfter
+        description: Exclude datapoints created before this date (YYYYMMDD)
+      - in: query
+        name: createdBefore
+        description: Exclude datapoints created after this date (YYYYMMDD)
+      - in: query
+        name: status
+        description: Status of datapoint (deleted/active/paused/spam)
+      - in: query
+        name: tags
+        description: Filter by this tag name
+      - in: query
+        name: textSearch
+        description: Filter fields by this pattern
+      - in: query
+        name: type
+        description: Type of datapoint (tl/tp)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Datapoints
+      - Count
+  /conversions/{conversionId}/datapoints/patch:
+    put:
+      summary: Modify the association between a conversion and a datapoint
+      description: Modify the association between a conversion and a datapoint.
+      operationId: putConversionsConversionDatapointsPatch
+      x-api-path-slug: conversionsconversioniddatapointspatch-put
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: body
+        name: data
+        description: Patch request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Datapoints
+      - Patch
+  /conversions/{conversionId}/hits:
+    get:
+      summary: Retrieve the list of events related to this conversion.
+      description: Retrieve the list of events related to this conversion..
+      operationId: getConversionsConversionHits
+      x-api-path-slug: conversionsconversionidhits-get
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: query
+        name: filter
+        description: Filter event type (spiders/uniques/nonuniques/conversions)
+      - in: query
+        name: fromDay
+        description: If using a custom timeFrame you can specify the starting day
+          (YYYYMMDD)
+      - in: query
+        name: limit
+        description: Limit results to this number
+      - in: query
+        name: offset
+        description: Offset where to start from (its the lastKey field in the response
+          object)
+      - in: query
+        name: timeframe
+        description: Timeframe of the request
+      - in: query
+        name: toDay
+        description: If using a custom timeFrame you can specify the ending day (YYYYMMDD)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Hits
+  /conversions/{conversionId}/notes:
+    put:
+      summary: Fast patch the "notes" field of a conversion
+      description: Fast patch the "notes" field of a conversion.
+      operationId: putConversionsConversionNotes
+      x-api-path-slug: conversionsconversionidnotes-put
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: body
+        name: note
+        description: Patch requests
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Notes
+  /conversions/{conversionId}/reports:
+    get:
+      summary: Retrieve a top report connected to this conversion
+      description: Retrieve a top report connected to this conversion.
+      operationId: getConversionsConversionReports
+      x-api-path-slug: conversionsconversionidreports-get
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: query
+        name: fromDay
+        description: If using a custom timeFrame you can specify the starting day
+          (YYYYMMDD)
+      - in: query
+        name: hittype
+        description: Type of the event you want to filter this report with
+      - in: query
+        name: timeframe
+        description: Timeframe of the request
+      - in: query
+        name: toDay
+        description: If using a custom timeFrame you can specify the ending day (YYYYMMDD)
+      - in: query
+        name: type
+        description: Type of the report
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Reports
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

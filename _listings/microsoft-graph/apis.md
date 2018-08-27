@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
@@ -73,6 +73,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtconverttorange-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtconverttorange-post-openapi.md
+- name: Microsoft Graph API - Table Convert To Range
+  x-api-slug: workbookworksheetsltidnamegttablesltidnamegtconverttorange-post
+  description: 'Table: convertToRange Converts the table into a normal range of cells.
+    All data is preserved.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtconverttorange-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtconverttorange-post-openapi.md
+- name: Microsoft Graph API - Table Convert To Range
+  x-api-slug: workbooktablesltidnamegtconverttorange-post
+  description: 'Table: convertToRange Converts the table into a normal range of cells.
+    All data is preserved.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbooktablesltidnamegtconverttorange-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/workbooktablesltidnamegtconverttorange-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io

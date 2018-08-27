@@ -1,0 +1,584 @@
+{
+	"name": "Streadata.io API Gallery - Conversions",
+	"description": "This is a repository of conversions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/conversions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://conversions.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "pdfcrowd",
+			"x-api-slug": "pdfcrowd",
+			"description": "Pdfcrowd is a Web/HTML to  PDF online service. Convert HTML to PDF online in the browser or in your PHP,  Python, Ruby, .NET, Java apps via the REST API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/453-pdfcrowd.jpg",
+			"humanURL": "http://pdfcrowd.com",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/pdfcrowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DocRaptor",
+			"x-api-slug": "docraptor",
+			"description": "Forget tedious coding or server management: Our simple API that makes it easy to convert HTML to PDF, XLS and Excel files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/576-docraptor.jpg",
+			"humanURL": "http://docraptor.com",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/docraptor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transloadit",
+			"x-api-slug": "transloadit",
+			"description": "Transloadit is a Berlin based startup that takes care of user generated content. Web/apps point their uploads directly to Transloadit&rsquo;s cloud platform so that they can be encoded, transformed, and stored back on the customer&rsquo;s server or cloud bucket. Transloadit supports upload progress bars, video encoding, adding logos, converting documents, generating waveforms (like soundcloud), and more as can be seen in their Demos section.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transloadit-logo.png",
+			"humanURL": "http://transloadit.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/transloadit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Web2PDF",
+			"x-api-slug": "web2pdf",
+			"description": "Create PDF easily with our developers API/SDK for Ruby Java .NET C# PHP Shell Delphi.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/670-web2pdf.jpg",
+			"humanURL": "",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/web2pdf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PDFize",
+			"x-api-slug": "pdfize",
+			"description": "Kong is the worlds most popular open source microservice API gateway. Use Kong to secure, manage and orchestrate microservice APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/889-pdfize.jpg",
+			"humanURL": "http://www.mashape.com/apis/PDFize",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/pdfize/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"x-api-slug": "open-exchange-rates-api",
+			"description": "The original simple, accurate and transparent exchange rates and currency conversion data API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1347-.jpg",
+			"humanURL": "https://openexchangerates.org",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/open-exchange-rates-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aspose",
+			"x-api-slug": "aspose",
+			"description": ".NET Java Cloud SharePoint Android SSRS and JasperReports file format APIs for developers. Integrate in any enterprise level web desktop and mobile application",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg",
+			"humanURL": "http://www.aspose.com",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/aspose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RedLine13 Zip Code Distance",
+			"x-api-slug": "redline13-zip-code-distance",
+			"description": "RedLine13 is an almost free load testing service that allows users to run a range load, stress, and performance tests with popular tools like JMeter.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1900-redline13-zip-code-distance.jpg",
+			"humanURL": "http://zipcodedistanceapi.redline13.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/redline13-zip-code-distance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Affilae",
+			"x-api-slug": "affilae",
+			"description": "Create, track & manage easily your own affiliate network. Affilae is a SaaS affiliate marketing software improved by hundreds advertisers around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1999-affilae.jpg",
+			"humanURL": "https://affilae.com/en",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/affilae/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ReadSpeaker",
+			"x-api-slug": "readspeaker",
+			"description": "Text to speech for online & offline content of websites, apps, e-Books, e-Learning, telephony & transport systems, media, robotics, embedded devices, IoT & more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2078-readspeaker.jpg",
+			"humanURL": "http://www.readspeaker.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/readspeaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APIMATIC",
+			"x-api-slug": "apimatic",
+			"description": "A Developer Experience Platform for APIs. Services include: Developer Portal Generation, SDK Generation, Documentation Generation, Code Sample Generation, API Specification Conversion, CI/CD Integrations, Package Publishing",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apimatic.jpg",
+			"humanURL": "http://apimatic.io",
+			"baseURL": "https://apimatic.io//api/transform",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/apimatic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Uploadcare",
+			"x-api-slug": "uploadcare",
+			"description": "Beautiful HTML5 widget, API to manage files in cloud storage, smart and fast CDN to deliver them to your end users. Crop, resize and transform uploaded images using URL commands. Transfer entire HD videos, documents and huge sets of photos, upload media from different sources. With Uploadcare your users can upload files up to 5 TB in size.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uploadcare-logo.png",
+			"humanURL": "https://uploadcare.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/uploadcare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Transformer",
+			"x-api-slug": "api-transformer",
+			"description": "Transform API Descriptions from/to various formats e.g., Swagger, API Blueprint, RAML, WADL, Google Discovery, I/O Docs. Please contact us for production and high volume usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-transformer-screenshot.png",
+			"humanURL": "https://apitransformer.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/api-transformer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blockchain",
+			"x-api-slug": "blockchain",
+			"description": "With the largest bitcoin wallet platform in the world, Blockchains software has powered over 100M transactions and empowered users in 130 countries across the globe to transact quickly and without costly intermediaries. We also offers tools for develo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg",
+			"humanURL": "https://blockchain.info",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/blockchain/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rss2Json",
+			"x-api-slug": "rss2json",
+			"description": "Free online API to convert RSS to JSON",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28173-rss2json-com.jpg",
+			"humanURL": "https://rss2json.com",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/rss2json/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/nfusion-solutions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinMarketCap",
+			"x-api-slug": "coinmarketcap",
+			"description": "Cryptocurrency market cap rankings, charts, and more",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28891-pro-coinmarketcap-com.jpg",
+			"humanURL": "https://pro.coinmarketcap.com",
+			"baseURL": "https://pro-api.coinmarketcap.com//",
+			"tags": "Conversions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/coinmarketcap/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Conversions",
+	"include": [
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "pdfcrowd",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/pdfcrowd/apis.yaml"
+		},
+		{
+			"name": "DocRaptor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/docraptor/apis.yaml"
+		},
+		{
+			"name": "Transloadit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/transloadit/apis.yaml"
+		},
+		{
+			"name": "Web2PDF",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/web2pdf/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "PDFize",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/pdfize/apis.yaml"
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/open-exchange-rates-api/apis.yaml"
+		},
+		{
+			"name": "Aspose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/aspose/apis.yaml"
+		},
+		{
+			"name": "RedLine13 Zip Code Distance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/redline13-zip-code-distance/apis.yaml"
+		},
+		{
+			"name": "Affilae",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/affilae/apis.yaml"
+		},
+		{
+			"name": "ReadSpeaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/readspeaker/apis.yaml"
+		},
+		{
+			"name": "APIMATIC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/apimatic/apis.yaml"
+		},
+		{
+			"name": "Uploadcare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/uploadcare/apis.yaml"
+		},
+		{
+			"name": "API Transformer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/api-transformer/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Blockchain",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/blockchain/apis.yaml"
+		},
+		{
+			"name": "Rss2Json",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/rss2json/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/nfusion-solutions/apis.yaml"
+		},
+		{
+			"name": "CoinMarketCap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/coinmarketcap/apis.yaml"
+		}
+	]
+}

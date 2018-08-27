@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-bloc
 x-kinRank: "8"
 x-alexaRank: "3499"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/blockchain/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Blockchain Info - Convert
+  x-api-slug: tobtc-get
+  description: Convert x value in the provided currency to btc.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
+  humanURL: https://blockchain.info
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/blockchain/tobtc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/blockchain/tobtc-get-openapi.md
 - name: Blockchain Info - Convert
   x-api-slug: tobtc-get
   description: Convert x value in the provided currency to btc.

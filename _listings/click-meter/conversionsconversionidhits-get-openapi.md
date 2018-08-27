@@ -448,6 +448,61 @@ paths:
       - Conversions
       - ConversionId
       - Hits
+  /conversions/{conversionId}/notes:
+    put:
+      summary: Fast patch the "notes" field of a conversion
+      description: Fast patch the "notes" field of a conversion.
+      operationId: putConversionsConversionNotes
+      x-api-path-slug: conversionsconversionidnotes-put
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: body
+        name: note
+        description: Patch requests
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Notes
+  /conversions/{conversionId}/reports:
+    get:
+      summary: Retrieve a top report connected to this conversion
+      description: Retrieve a top report connected to this conversion.
+      operationId: getConversionsConversionReports
+      x-api-path-slug: conversionsconversionidreports-get
+      parameters:
+      - in: path
+        name: conversionId
+        description: Id of the conversion
+      - in: query
+        name: fromDay
+        description: If using a custom timeFrame you can specify the starting day
+          (YYYYMMDD)
+      - in: query
+        name: hittype
+        description: Type of the event you want to filter this report with
+      - in: query
+        name: timeframe
+        description: Timeframe of the request
+      - in: query
+        name: toDay
+        description: If using a custom timeFrame you can specify the ending day (YYYYMMDD)
+      - in: query
+        name: type
+        description: Type of the report
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversions
+      - ConversionId
+      - Reports
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

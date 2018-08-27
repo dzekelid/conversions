@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Conversions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
+- name: The Confluence Cloud REST API - Convert content body
+  x-api-slug: contentbodyconvertto-post
+  description: |-
+    Converts a content body from one format to another format.
+
+    Supported conversions:
+
+    - storage: view, export_view, styled_view, editor
+    - editor: storage
+    - view: none
+    - export_view: none
+    - styled_view: none
+
+    **[Permissions](https://confluence.atlassian.com/x/_AozKw) required**:
+    If request specifies 'contentIdContext', 'View' permission for the space, and permission to view the content.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/atlassian/contentbodyconvertto-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conversions/master/_listings/atlassian/contentbodyconvertto-post-openapi.md
 - name: The Confluence Cloud REST API - Convert content body
   x-api-slug: contentbodyconvertto-post
   description: |-
